@@ -14,5 +14,7 @@ public class SegitigaFarrel {
 
         luas =  (float)(alas * tinggi) / 2;
         System.out.println("Luas segitiga adalah: " + luas);
+
+        sc.close();
     }
 }

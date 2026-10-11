@@ -30,5 +30,8 @@ public class TanahTonoFarrel {
         System.out.println("Luas kolam: " + luas_kolam);
         System.out.println("Luas taman bunga: " + luas_taman);
         System.out.println("Luas tanah yang tidak digunakan: " + luas_tidak_digunakan);
+
+        scanner.close();
+    
     }
 }

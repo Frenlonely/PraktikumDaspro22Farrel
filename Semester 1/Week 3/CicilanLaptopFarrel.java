@@ -34,5 +34,7 @@ public class CicilanLaptopFarrel {
         System.out.println("Pokok per bulan     : Rp " + pokokCicilan);
         System.out.println("Cicilan per bulan   : Rp " + cicilanPerBulan);
 
+        sc.close();
+
     }
 }

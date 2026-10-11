@@ -25,5 +25,7 @@ public class GajidanurFarrel {
         System.out.println("Potongan dana pensiun: " + potongan_pensiun);
         System.out.println("Tunjangan anak: " + (tunjangan_anak * jumlah_anak));
         System.out.println("Gaji bersih: " + gaji_bersih);
+
+        sc.close();
     }
 }

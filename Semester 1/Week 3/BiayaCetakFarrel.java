@@ -24,5 +24,7 @@ public class BiayaCetakFarrel {
         System.out.println("Biaya jilid   : Rp " + biayaJilid);
         System.out.println("Total biaya   : Rp " + totalBiaya);
 
+        sc.close();
+
     }
 }

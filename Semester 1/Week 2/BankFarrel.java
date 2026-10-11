@@ -17,5 +17,7 @@ public class BankFarrel {
         System.out.println("Bunga adalah: " + bunga);
         System.out.println("Jumlah tabungan akhir adalah: " + jml_tabungan_akhir);
 
+        sc.close();
+
     }
 }

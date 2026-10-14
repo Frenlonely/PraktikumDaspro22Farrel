@@ -30,8 +30,7 @@ public class PredikatNilai {
             System.out.println("Predikat C");
         } else {
             System.out.println("Predikat D");
-        }
-
+        } 
         // Tahap 4: Menutup Scanner
         input.close();
     }

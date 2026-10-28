@@ -33,36 +33,36 @@ public class StudiKasus2Farrel22 {
             System.out.println("Dana tidak diberikan.");
         } else {
             
-if (jenisKegiatan.equals("BELMAWA")
+        if (jenisKegiatan.equals("BELMAWA")
         || jenisKegiatan.equals("BAKORMA")
         || jenisKegiatan.equals("MANDIRI")) {
 
-    if (peringkatJuara >= 1 && peringkatJuara <= 3) {
+        if (peringkatJuara >= 1 && peringkatJuara <= 3) {
         System.out.println("Dana penghargaan diberikan.");
-    } else {
+        } else {
         System.out.println("Dana penghargaan tidak diberikan.");
-    }
-
-} else if (jenisKegiatan.equals("PKM")) {
-
-    if (statusPKM == 1) {
-        System.out.println("Dana penghargaan diberikan.");
-    } else if (statusPKM == 0) {
-        System.out.println("Dana penghargaan tidak diberikan.");
-    } else {
-        System.out.println("Status PKM tidak valid.");
-    }
-
-} else if (jenisKegiatan.equals("LAINNYA")) {
-
-    System.out.println("Dana penghargaan tidak diberikan.");
-
-} else {
-
-    System.out.println("Jenis kegiatan tidak valid.");
-}
-
         }
+
+        } else if (jenisKegiatan.equals("PKM")) {
+
+        if (statusPKM == 1) {
+        System.out.println("Dana penghargaan diberikan.");
+        } else if (statusPKM == 0) {
+        System.out.println("Dana penghargaan tidak diberikan.");
+        } else {
+        System.out.println("Status PKM tidak valid.");
+        }
+
+        } else if (jenisKegiatan.equals("LAINNYA")) {
+
+        System.out.println("Dana penghargaan tidak diberikan.");
+
+        } else {
+
+        System.out.println("Jenis kegiatan tidak valid.");
+        }
+
+     }
         input.close();
     }
 }

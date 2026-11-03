@@ -1,8 +1,10 @@
 
+
 import java.util.Scanner;
 
 public class KafeDoWhile22Farrel {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         int kopi, teh, roti;
@@ -10,6 +12,7 @@ public class KafeDoWhile22Farrel {
         int hargaTeh = 7000;
         int hargaRoti = 20000;
         int totalHarga;
+
         String namaPelanggan;
 
         do {
@@ -45,3 +48,4 @@ public class KafeDoWhile22Farrel {
         sc.close();
     }
 }
+

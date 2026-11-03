@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class SiakadFor22Farrel {
@@ -6,6 +7,7 @@ public class SiakadFor22Farrel {
         Scanner sc = new Scanner(System.in);
 
         double nilai, tertinggi = 0, terendah = 100;
+
         int lulus = 0;
         int tidakLulus = 0;
 
@@ -21,15 +23,13 @@ public class SiakadFor22Farrel {
             if (nilai < terendah) {
                 terendah = nilai;
             }
+
             if (nilai >= 60) {
                 lulus++;
             } else {
                 tidakLulus++;
             }
         }
-
-        
-    
 
         System.out.println("\n=== HASIL NILAI MAHASISWA ===");
         System.out.println("Nilai tertinggi: " + tertinggi);

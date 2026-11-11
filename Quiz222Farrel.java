@@ -89,6 +89,6 @@ public class Quiz222Farrel {
 
         System.out.println("Jumlah meteran rusak: " + jumlahMeteranRusak);
 
-        sc.close();
+        sc.close(); 
     }
 }
